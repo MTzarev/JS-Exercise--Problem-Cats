@@ -5,7 +5,7 @@ function cats(array){
             this.age = age;
         }
         meow (){
-            console.log(`${this.name}, age ${this.age} says Meow`)
+            console.log(`${this.name}, age ${this.age} says Meow`);
         }
     }
 for (let i=0; i<array.length; i++){
@@ -13,7 +13,7 @@ for (let i=0; i<array.length; i++){
     let name, age;
     [name, age] = [catData[0], catData[1]];
     let cat = new Cat(name, age);
-    cat.meow()
+    cat.meow();
 }
     console.log();
 }
